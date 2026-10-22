@@ -16,4 +16,4 @@
 
 - `rest-api-response-sanitized.json` — обезличенная выборка данных ответа.
 - `evidence/05-issue-1-details.png` — интерфейс MantisBT с данными задачи № 1.
-- `KT6_MantisBT_Mikheev_MA.docx` и `KT6_MantisBT_Mikheev_MA.pdf` — итоговый отчёт.
+- `КТ6-MantisBT.docx` и `КТ6-MantisBT.pdf` — итоговый отчёт.
