@@ -1,0 +1,53 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "summary": "Ошибка расчета итоговой суммы",
+      "description": "При расчете итоговой суммы отображается неправильное значение.",
+      "steps_to_reproduce": [
+        "Открыть приложение.",
+        "Ввести исходные данные.",
+        "Выполнить расчет.",
+        "Проверить итоговую сумму."
+      ],
+      "project": {
+        "name": "KT6 Project"
+      },
+      "category": {
+        "name": "General"
+      },
+      "status": {
+        "name": "assigned"
+      },
+      "resolution": {
+        "name": "open"
+      },
+      "severity": {
+        "name": "minor"
+      },
+      "target_version": "1.0",
+      "handler": {
+        "role": "developer"
+      },
+      "notes": [
+        {
+          "text": "Ошибка воспроизведена. Необходимо проверить логику расчета итогового значения.",
+          "author": "[REDACTED]"
+        }
+      ]
+    }
+  ],
+  "sanitization": {
+    "source": "minimal verified subset; not a raw server response",
+    "removed": [
+      "host URL",
+      "API token",
+      "Authorization header",
+      "passwords",
+      "cookies",
+      "session identifiers",
+      "personal identifiers",
+      "unneeded server metadata"
+    ]
+  }
+}
